@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {
   Text,
-  View,
   StyleSheet,
   TextInput,
   TouchableOpacity,
@@ -11,6 +10,7 @@ import {
 import { Header } from 'react-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
+import { View } from 'react-native';
 
 export default class App extends React.Component {
   constructor() {
